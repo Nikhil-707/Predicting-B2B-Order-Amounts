@@ -1,14 +1,13 @@
+**🚀 Introduction**
 
-**Introduction**
+This project 📈 aims to build a machine learning model 🤖 to predict the order amount 💰 that customers can place in the upcoming days. We'll utilize the provided dataset 📊 to train and evaluate various machine learning models for this purpose.
 
-This project aims to build a machine learning model to predict the order amount that customers can place in the upcoming days. We'll utilize the provided dataset to train and evaluate various machine learning models for this purpose.
-
-**Data Understanding and Cleaning**
+**🛠️ Data Understanding and Cleaning**
 
 1. **Import libraries:**
-   - pandas for data manipulation
-   - numpy for numerical operations
-   - matplotlib and seaborn for data visualization
+   - pandas 🐼 for data manipulation
+   - numpy 🔢 for numerical operations
+   - matplotlib 📊 and seaborn 📈 for data visualization
 
 2. **Load data:**
    - Use `pd.read_csv` to load the CSV data into a pandas DataFrame.
@@ -25,12 +24,12 @@ This project aims to build a machine learning model to predict the order amount 
    - Check for inconsistencies and handle them accordingly (e.g., order date greater than delivery date).
    - Address formatting issues like commas or special characters in numerical columns (e.g., order amount).
 
-**Exploratory Data Analysis (EDA)**
+**🔍 Exploratory Data Analysis (EDA)**
 
 1. **Visualize data distribution:**
    - Create histograms, pie charts, boxplots, and other visualizations using libraries like matplotlib and seaborn to understand the distribution of features, identify patterns, and uncover potential relationships.
 
-**Feature Engineering**
+**🔧 Feature Engineering**
 
 1. **Handle outliers:**
    - Identify outliers using statistical methods (e.g., IQR) or visualization techniques (e.g., boxplots).
@@ -46,7 +45,7 @@ This project aims to build a machine learning model to predict the order amount 
    - Derive new features from existing ones based on domain knowledge or feature engineering techniques.
    - For example, calculate the mean order amount for each date and add it as a new feature.
 
-**Model Selection and Evaluation**
+**📊 Model Selection and Evaluation**
 
 1. **Split data into training and testing sets:**
    - Use `sklearn.model_selection.train_test_split` to split the data into training and testing sets for model training and evaluation.
@@ -66,7 +65,6 @@ This project aims to build a machine learning model to predict the order amount 
 4. **Compare and select the best model:**
    - Compare the performance metrics of different models and choose the one with the best overall performance on the unseen testing data.
 
-**Conclusion**
+**🏁 Conclusion**
 
 This notebook demonstrates the process of building a machine learning model for order amount prediction. We explored data cleaning, visualization, feature engineering, and model selection techniques. By evaluating various models, we can select the best performing one for our specific task.
-
